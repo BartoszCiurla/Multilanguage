@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0",
+      "type": "platform"
+    },
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+    "Microsoft.AspNetCore.Owin": "1.0.0",
+    "Nancy": "2.0.0-barneyrubble",
+    "Multilanguage.ViewModel": "1.0.0-*",
+    "Multilanguage.Service": "1.0.0-*",
+    "Multilanguage.Repository": "1.0.0-*",
+    "Autofac": "4.1.1",
+    "Autofac.Extensions.DependencyInjection": "4.0.0"  },
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {}
+  }
+}
